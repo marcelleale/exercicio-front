@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Exercício 1 - Front</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+   
+  </head>
+  <body>
+    <div id="head" class="borda">
+      <h1>
+        <b><i>Html, CSS e JavaScript</i></b>
+      </h1>
+    </div>
+
+    <!-- Box com formulário, radio button e botão enviar !-->
+
+    <div id="box_rosa" class="box_quadrado borda">
+      <br /><br />
+      <form>
+        Nome:<br />
+        <input id="nome" placeholder="Digite seu nome" type="text" name="nome" value=""/>
+
+        <p><input id="menina" type="radio" name="sex" value="menina" /> Menina</p>
+        <p><input id="menino" type="radio" name="sex" valeu="menino" /> Menino</p>
+
+        <input id="enviar" type="button" value="Enviar" onclick="mensagem() "/>
+      </form>
+      <br /><br />
+    </div>
+
+    <div id="box_lilas" class="borda box_ret" >
+      <p id="paragrafo">  
+      </p>
+    </div>
+
+    <!-- Box para mostrar a mensagem composta pelos dados acima -->
+
+    <div id="box_cores" class="box_ret borda">
+
+        <div id="vermelho" name="cor_caixa" class="container1 borda"> 
+        </div>       
+
+        <div id="azul" name="cor_caixa"  class="container1 borda">      
+        </div>  
+
+        <div id="amarelo" name="cor_caixa" class="container2 borda">      
+        </div> 
+        
+        <div  id="verde" name="cor_caixa" class="container2 borda">      
+        </div> 
+
+        <div id="branco" name="cor_caixa" class="container3 borda">      
+        </div> 
+
+        <div id="preto" name="cor_caixa" class="container3 borda">      
+        </div> 
+
+    </div>
+
+             
+        <div id="checkbox_cores" class="box_quadrado borda">
+            <div style="color: #ffff00; font-family: calibri;"><b> Cores preferidas: </b></div>
+        <form>
+             <br>
+            <p><input type="checkbox" name="cores" id="chk_vermelho" onclick="cores_preferidas('#FF0000')"> Vermelho
+            <br><input type="checkbox" name="cores" id="chk_azul" onclick="cores_preferidas_1('#2986cc')"> Azul
+            <br><input type="checkbox" name="cores" id="chk_amarelo" onclick="cores_preferidas_2('#ffd966')"> Amarelo
+            <br><input type="checkbox" name="cores" id="chk_verde" onclick="cores_preferidas_3('#008000')"> Verde
+            <br><input type="checkbox" name="cores" id="chk_branco" onclick="cores_preferidas_4('#e5e5e5')"> Branco
+            <br><input type="checkbox" name="cores" id="chk_preto" onclick="cores_preferidas_5('#000000')"> Preto
+        </p>
+        </form>
+        </div>
+        
+        <br><br>
+
+         <!-- Box laranja - data de nascimento e data atual -->
+
+
+        <div id="ret_idade" class="borda dia" style="background-color: #e69500; font-family: 'calibri';">
+        <p><b>Que dia é hoje?</b><br>
+        <input type="date" id="data_atual" name="DAT_HOJE" required></p><br>
+
+        <div class="nasc"><b>Quando você nasceu?</b><br>
+        <input type="date" id="data_nasc" name="DAT_NASC" required></div> </div>
+
+        <div class="calc"> 
+          <input type="button" value="Calcular" onclick="calc_idade()"> 
+        </div> 
+        
+        <div id="ret_idade1" class="borda resp_nasc" style="background-color: grey;"> 
+          <p id="resultado_idade"> 
+          </p>
+        </div>
+
+    
+        <footer>
+          <div id="footer" class="borda">
+            <h3><i>Quando chegar aqui você estará arrasando no front-end!</i></h3>
+
+            <div class="footer_desp">
+              <select id= "msg_despedida" name="ms_despedida"> 
+                <option value="inicial"> Selecione uma mensagem de despedida</option>
+                <option value="desp_um"> Até mais ver!</option>
+                <option valeu="desp_dois"> Arrivederci </option>
+                <option valeu="desp_tres"> Que a porta bata aonde o sol não bate </option>
+                <option valeu="desp_quatro"> Hasta la vista baby</option>
+               </select>
+            </div>
+            <div class="finalizar">
+            <input type="button" id="the-end" value="Finalizar" onclick="botao_finalizar()">
+            </div>
+          </div>
+      </footer> 
+
+      <script src="./javascript/script.js">
+      </script>
+
+  </body>
+</html>

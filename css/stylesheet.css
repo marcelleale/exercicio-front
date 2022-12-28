@@ -1,0 +1,220 @@
+ 
+ #head {
+    
+    background-color: lightgrey;
+    font-family: calibri;
+    color:  #63666A;
+    width: 1000px;
+    height: 60px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+ }
+
+ #box_rosa {
+    
+   background-color: lightpink;
+   padding-left: 10px;
+   margin: 2px;
+   
+ }
+
+ #box_lilas {
+
+  background-color: #9f9ad0;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 2px; 
+  position: relative;
+    left: 220px;
+    bottom: 204px;
+  text-align: center; 
+   
+
+ }
+
+ #box_cores {
+
+  background-color: #5f74d2;
+  padding-left: 2px;
+  padding-right: 2px;
+  position: relative;
+    left: 2px;
+    bottom:200px;
+    right: 50px;
+  
+ }
+
+ #checkbox_cores {
+
+  background-color: #e53fe5;
+  padding-left: 2px;
+  padding-right: 2px;
+  position: relative;
+    left: 800px;
+    bottom: 402px;
+
+
+ }
+
+ #ret_idade {
+
+  width: 490px; 
+  height: 100px;
+  position: relative;
+    bottom: 425px;
+    left: 2px;
+ }
+  
+ #ret_idade1 {
+
+  width: 490px; 
+  height: 100px;
+  position: relative;
+    bottom: 548px;
+    left: 515px;
+ }
+
+ #footer {
+
+  background-color: #1919e6;
+  color: whitesmoke;
+  font-family: calibri;
+  font-style: italic;
+  width: 997px;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: relative;
+    bottom: 540px;
+
+ }
+
+ #paragrafo {
+
+    font-family: 'calibri';
+    color: white;
+    font-size: 23px;
+    position: relative;
+      top: 40px;
+ } 
+
+ #resultado_idade {
+
+  font-family: 'calibri';
+  color: white;
+  font-size: 18px;
+  position: relative;
+    top: 20px; 
+   
+    
+
+ }
+
+ .borda {
+   border-style: solid; 
+   border-width: thin;
+   border-color: black;
+ }
+
+ .box_quadrado {
+
+  width: 200px;
+  height: 200px
+  
+ }
+
+ .box_ret {
+
+  width: 780px;
+  height: 200px;
+
+ }
+
+ .margem {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+ }
+
+ .container1 {
+
+  background-color: white;
+  width: 150px; 
+  height: 60px;
+  margin-bottom: 5px;
+  padding: 5px;
+  position: relative;
+    left: 30px;
+    top: 20px;
+  }
+
+  .container2 {
+
+    background-color: white;
+    width: 150px; 
+    height: 60px;
+    margin-bottom: 5px;
+    padding: 5px;
+    position: relative;
+      left: 250px;
+      bottom: 135px;
+      
+    }
+
+    .container3 {
+
+      background-color: white;
+      width: 150px; 
+      height: 60px;
+      margin-bottom: 5px;
+      padding: 5px;
+      position: relative;
+        left: 470px;
+        bottom: 290px;
+        
+      }
+
+      .dia {
+
+        padding-left: 10px;
+      }
+    
+      .nasc {
+
+        position: relative;
+          left: 230px;
+          bottom: 75px;
+      }
+
+      .resp_nasc {
+        text-align: center;  
+      }
+
+      .calc {
+        position: relative;
+          bottom: 455px;
+          left: 400px;
+      }
+
+      .footer_desp {
+        position: relative;
+          bottom: 40px;
+          left: 530px;
+      }
+
+      .finalizar {
+        position: relative;
+          bottom: 60px;
+          left: 850px;
+      }
+
+
+
+  
+
+ 
+ 
